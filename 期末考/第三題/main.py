@@ -15,7 +15,7 @@ USERNAME = "1114405040"
 PASSWORD = "csie1114405040"
 TOPIC = b"v1/devices/me/telemetry"
 
-MQ2_GPIO = 34
+MQ2_GPIO = 32
 ALARM_THRESHOLD = 50
 SEND_INTERVAL = 5
 MQ2_K = 2.54
@@ -67,7 +67,7 @@ def publish_gas(client, ppm):
     print("[MQTT] Published:", payload)
 
 
-# diagram.json wiring: MQ2 AO -> GPIO34
+# diagram.json wiring: MQ2 AO -> GPIO32
 mq2 = ADC(Pin(MQ2_GPIO))
 mq2.atten(ADC.ATTN_11DB)
 

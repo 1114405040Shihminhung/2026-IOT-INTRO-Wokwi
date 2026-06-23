@@ -30,7 +30,7 @@
     [ "esp:RX", "$serialMonitor:TX", "", [] ],
     [ "gas1:VCC", "esp:3V3", "red", [ "v-28.8", "h-96" ] ],
     [ "gas1:GND", "esp:GND.2", "black", [ "v57.6", "h-124.8" ] ],
-    [ "gas1:AOUT", "esp:34", "purple", [ "v76.8", "h-86.4" ] ]
+    [ "gas1:AOUT", "esp:32", "purple", [ "v76.8", "h-86.4" ] ]
   ],
   "dependencies": {}
 }
