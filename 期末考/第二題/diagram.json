@@ -39,7 +39,7 @@
     [ "dht1:SDA", "esp:4", "violet", [ "v76.8", "h523.3", "v337.3" ] ],
     [ "gas1:VCC", "esp:3V3", "red", [ "h122", "v87.6" ] ],
     [ "gas1:GND", "esp:GND.2", "black", [ "h218", "v97.3" ] ],
-    [ "gas1:AOUT", "esp:34", "purple", [ "h45.2", "v155.7" ] ]
+    [ "gas1:AOUT", "esp:32", "purple", [ "h45.2", "v155.7" ] ]
   ],
   "dependencies": {}
 }

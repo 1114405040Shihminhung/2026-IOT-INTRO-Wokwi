@@ -6,7 +6,7 @@ import time
 
 STUDENT_ID = "1114405040"
 DHT22_GPIO = 4
-MQ2_GPIO = 34
+MQ2_GPIO = 32
 MQ2_K = 2.54
 MQ2_P = 2.467
 
@@ -84,7 +84,7 @@ def show_error(message):
 
 
 # diagram.json wiring:
-# OLED SDA=GPIO21, SCL=GPIO22; DHT22 DATA=GPIO4; MQ2 AO=GPIO34.
+# OLED SDA=GPIO21, SCL=GPIO22; DHT22 DATA=GPIO4; MQ2 AO=GPIO32.
 i2c = I2C(0, scl=Pin(22), sda=Pin(21), freq=400000)
 oled = SSD1306(128, 64, i2c)
 
